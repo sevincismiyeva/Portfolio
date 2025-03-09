@@ -1,0 +1,57 @@
+/* task1.html */
+.hero-image{
+    background-image:url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    width: 100vw; /* Eni səhifənin tam genişliyi */
+    height: 100vh; /* Hündürlüyü səhifənin tam boyu */   
+}
+
+.hero-text {
+    text-align: center;
+  } 
+
+
+/*Task2.html*/
+
+.scroll{
+    overflow-y: scroll;
+    background-image: url("https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=") ;
+    width: 50%; 
+    height: 300px;
+    border: 8px solid rgb(0, 0, 0); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.task2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+}
+
+/*Task4.html*/
+
+.bgimage{
+    background: url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg') no-repeat center center;
+    width: 80%;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(164, 136, 136, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
