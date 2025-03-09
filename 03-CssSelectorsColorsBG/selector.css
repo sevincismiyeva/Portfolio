@@ -1,101 +1,79 @@
-/*selector.html*/
-
-/* 1. Universal selector - bütün elementlərə təsir edir */
 * {
     font-family: Arial, sans-serif;
 }
 
-/* 2. Element selector - bütün p elementlərini stil edir */
 p {
-    color: blue;
+    color: rgb(2, 2, 66);
 }
 
-/* 3. ID selector - id="main" olan elementi stil edir */
 #main {
-    background-color: lightgrey;
+    background-color: rgb(143, 126, 126);
 }
 
-/* 4. Class selector - class="highlight" olan elementlərə təsir edir */
 .yazi {
     font-weight: bold;
 }
 
-/* 5. həm h1, həm də h2 üçün stil verir */
 h1, h2 {
     text-align: center;
 }
 
-/* 6. yalnız main-in birbaşa uşağı olan p elementlərinə təsir edir */
 #main > p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
-/* 7. main daxilindəki bütün span-ları stil edir */
 #main span {
-    color: red;
+    color: rgb(153, 9, 9);
 }
 
-/* 8. p-dən dərhal sonra gələn h2-yə təsir edir */
 p + h2 {
-    color: purple;
+    color: rgb(90, 5, 90);
 }
 
-/* 9. p-dən sonra gələn bütün h2-lərə təsir edir */
 p ~ h2 {
     font-style: italic;
 }
 
-/* 10. Attribute selector - type="text" olan input-lara təsir edir */
 input[type="text"] {
-    border: 2px solid green;
+    border: 3px solid rgb(0, 0, 0);
 }
 
-/* 11. disabled atributu olan input-lar */
 input[disabled] {
-    background-color: lightcoral;
+    background-color: rgb(4, 181, 42);
 }
 
-/* 12. value="submit" olan input-lar */
 input[value="submit"] {
-    background-color: yellow;
+    background-color: rgb(214, 118, 118);
 }
 
-/* 13. ilk p elementinə təsir edir */
 p:first-child {
-    color: chocolate;
+    color: rgb(10, 50, 109);
 }
 
-/* 14. sonuncu p elementinə təsir edir */
 p:last-child {
-    text-decoration: none;
+    border-radius: 10px;
 }
 
-/* 15. 2-ci p elementinə təsir edir */
 p:nth-child(2) {
-    color: rgb(42, 79, 4);
+    color: rgb(0, 0, 0);
 }
 
-/* 16. 2-ci p tipli elementə təsir edir */
 p:nth-of-type(2) {
-    background-color: rgb(10, 113, 147);
+    background-color: rgb(7, 189, 249);
 }
 
-/* 17. ilk p tipli element */
 p:first-of-type {
-    border-left: 5px solid orange;
+    border-left: 5px solid rgb(0, 0, 0);
 }
 
-/* 18. sonuncu p tipli element */
 p:last-of-type {
     padding: 15px;
 }
 
-/* 19. tək uşaq olan elementlər */
-div:only-child {
-    border: 3px dashed rgb(23, 107, 6);
+div:only-of-type {
+    border: 3px solid rgb(190, 183, 176);
 }
 
-/* 20. mouse ilə üstünə gedilən p elementləri */
 p:hover {
-    color: darkgreen;
+    color: rgb(181, 3, 3);
 }

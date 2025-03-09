@@ -7,13 +7,34 @@
     <link rel="stylesheet" href="selector.css">
 </head>
 <body>
+    <!--  
+1. Universal selector - bütün elementlərə təsir edir 
+2. Element selector - bütün p elementlərini stil edir
+3. ID selector - id="main" olan elementi stil edir
+4. Class selector - class="highlight" olan elementlərə təsir edir
+5. həm h1, həm də h2 üçün stil verir 
+6. yalnız main-in birbaşa uşağı olan p elementlərinə təsir edir  
+7. main daxilindəki bütün span-ları stil edir 
+8. p-dən dərhal sonra gələn h2-yə təsir edir 
+9. p-dən sonra gələn bütün h2-lərə təsir edir 
+10. Attribute selector - type="text" olan input-lara təsir edir 
+11. disabled atributu olan input-lar 
+12. value="submit" olan input-lar 
+13. ilk p elementinə təsir edir 
+14. sonuncu p elementinə təsir edir 
+15. 2-ci p elementinə təsir edir 
+16. 2-ci p tipli elementə təsir edir  17. ilk p tipli element 
+18. sonuncu p tipli element 
+19. tək uşaq olan elementlər 
+20. mouse ilə üstünə gedilən p elementləri  
+-->
     <h1>Welcome to CSS Selectors</h1>
     <div id="main">
         <p class="yazi">This is the first paragraph.</p>
         <p>This is the second paragraph with a <span>span element</span>.</p>
         <p>This is the last paragraph.</p>
-        <h2>Subtitle 1</h2>
-        <h2>Subtitle 2</h2>
+        <h2>Basliq 1</h2>
+        <h2>Basliq 2</h2>
         <input type="text" placeholder="Enter text">
         <input type="submit" value="submit">
         <input type="text" disabled>
