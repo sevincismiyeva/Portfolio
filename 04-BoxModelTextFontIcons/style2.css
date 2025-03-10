@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column; /* Sətirlər şəklində düzmək */
+    align-items: center; /* Mərkəzə yerləşdirmək */
+    gap: 20px; /* Sətirlər arası boşluq */
+    margin-top: 50px;
+}   
+
+.main{
+    display: flex;
+    gap: 20px; 
+}
+
+.div1{
+    background-color: rgb(59, 136, 59);
+    border-radius: 90px;
+    border: 5px solid red;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+.div2{
+    background-color: rgb(218, 124, 57);
+    border-radius: 25% 10%;
+    border: 5px solid red;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+.div3{
+    background-color: rgb(33, 113, 113);
+    border-radius: 35px 10em 10%;
+    border: 5px solid red;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+.div4{
+    background-color: rgb(66, 66, 115);
+    border-radius: 50px 50% 50cm 50em;
+    border: 5px solid red;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}

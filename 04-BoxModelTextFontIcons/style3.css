@@ -1,0 +1,47 @@
+body {
+    background-color: #f4f1eb;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.hamilton {
+    font-family: "Emblema One", system-ui;
+    font-size: 80px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.serif {
+    font-family: "Iansui", cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: #8a6d3b;
+    margin-bottom: 20px;
+}
+
+.sse {
+    font-family: "Iansui", cursive;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.extras {
+    font-family: "Emblema One", system-ui;
+    font-size: 20px;
+    font-style: italic;
+    color: #b5835a;
+    margin-bottom: 50px;
+}
+
+.footer {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #8a6d3b;
+    border-top: 1px solid #8a6d3b;
+    padding: 30px;
+    margin-top: 150px;
+}

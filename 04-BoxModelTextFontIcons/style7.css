@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(229, 231, 231);
+}
+
+.container{
+    background-color: orange;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.main{
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+}
+
+select {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #383838;
+    color: white;
+    width: 400px;
+}
