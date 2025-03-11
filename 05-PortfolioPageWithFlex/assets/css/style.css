@@ -1,0 +1,289 @@
+
+#top {
+    background-color: rgb(44 62 80);
+    color: white;
+    height: 7rem;
+}
+
+.head{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 8%;
+}
+
+.navbar{
+   margin-right: 150px; 
+}
+.navbar-list{
+    display: flex;
+    gap: 3rem;
+}
+
+.navbar .navbar-list li{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* main hissə */
+
+#first{
+    background-color: rgb(26 188 156);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+}
+
+.image{
+    width: 250px;
+    margin-top: 8%;
+}
+
+.line{
+    width: 6rem;
+    height: 0.3rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.star{
+    display: flex;
+    gap: 1rem;
+}
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+p{
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+
+/* 3cü hissə */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 5% 6% 0;
+}
+
+.pictures-list{
+    width: 24rem;
+    height: 18rem;
+}
+.pictures img{
+    border-radius: 2rem;
+}
+
+
+.line2{
+    width: 6rem;
+    height: 0.3rem;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.star2{
+    display: flex;
+    gap: 1rem;
+}
+
+.header h2{
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+
+  .pictures-list:hover img {
+    filter: brightness(50%); /* Şəklin üstü qaranlıqlaşır */
+  }
+  
+  
+
+/* 4cü hissə */
+
+#third{
+    background-color: rgb(26 188 156);
+    margin-top: 50px;
+}
+.head3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.head3 h2{
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.texts{
+    color: white;
+    display: flex;
+    text-align: justify;
+    gap: 3rem;
+}
+
+.star i{
+    color: white;
+}
+
+button {
+    background-color: rgb(26 188 156);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Icon ilə yazı arasında boşluq */
+  }
+  
+  button i {
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+
+/* 5ci hissə */
+
+.line4{
+    width: 6rem;
+    height: 0.3rem;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.star4{
+    display: flex;
+    gap: 1rem;
+}
+
+.head4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.head4 h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+
+.iinput form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 25px;
+    color: #555;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 50px;
+    
+}
+
+.send{
+    width: 17%;
+}
+
+
+/* footer hissə */
+
+.mix {
+    background-color: rgb(44 62 80);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div1, .div2,.div3{
+    margin: 5%;
+}
+.div3 a{
+    color: rgb(26 188 156);
+}
+
+.mix h2{
+    text-transform: uppercase;
+}
+
+.div2 i:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.div2 i {
+    font-size: 25px; /* ikon ölçüsü */
+    border: 2px solid rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px; /* yumru form */
+    flex-wrap: wrap;
+}
+
+.icon-container{
+    display: flex;
+    gap: 1rem;
+    padding: 30px;
+}
+
+.finish{
+    background-color: blueviolet;
+    margin-top: 0;
+}
+
+.end {
+    background-color: #1a252f;
+    text-align: center;
+    color: white;
+    padding: 8px 0;
+    font-size: 15px;
+}
