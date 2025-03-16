@@ -650,5 +650,39 @@ hr{
   }
 
 
+.elave{
+    width: 90%;
+    height: 90%;
+    margin: 15px 10px 10px 15px;
+    text-align: center;
+    padding-top: 70px;
+    background-color: #3a3a3a ;
+    filter: opacity(0.9);
+    position: absolute;
+    color: white;
+    top: 0;
+    opacity: 0;
+}
+.elave h3{
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
 
+.elavebtn{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    color: white;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.elavebtn:hover{
+    color: black;
+    background-color: white;
+}
+.elave:hover{
+    opacity: 1;
+}
 
