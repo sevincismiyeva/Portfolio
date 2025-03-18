@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+#nav_area{
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.navbar li{
+    font-size: 17px;
+}
+.navbar li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.btn-warning:hover{
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+.hero{
+    padding-top: 15%;
+    
+}
+
+.hero_title{
+    font-size: 100px;
+}
+
+.btn{
+    padding: 20px 80px;
+}
+
+
+.range-container {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+.progress-bar {
+    border-radius: 5px;
+}
+.range-label {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.range-wrapper {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.progress{
+    width: 300px;
+    height: 5px;
+}
+
+.gallery img{
+    width: 377px;
+    height: 377px;
+}
+
+.gallery img:hover{
+    filter: brightness(80%);
+}
+
+
+#purplebg{
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg);
+    height: 640px;
+    background-size: cover;
+    position: relative;
+}
+
+
+.testimonials{
+    text-align: center;
+}
+
+.testimage img{
+    width: 127px;
+    height: 127px;
+    display: inline;
+    border-radius: 50%;
+}
+
+.testitext{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6a4d8a;
+    padding: 40px;
+    border-radius: 10px;
+    width: 70%;
+}
+.mike{
+    margin-top: 250px;
+}
+
+.col-4 i{
+    margin-left: 180px;
+}
+
+
+#latest_news{
+    background-color: #222f36;
+    width: 100%;
+    height: 994px;
+}
+.cards{
+    margin-top: 50px;
+}
+
+.card {
+    width: 360px;
+    height: 553px;
+    border-radius: 0;
+    position: relative;
+  }
+
+  .carddif{
+    height: 580px;
+  }
+
+.picture img{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  
+  .card_content {
+    margin-top: 250px;
+    padding-left: 38px;
+    position: absolute;
+
+  }
+  .card_price{
+    text-align: justify;
+    margin-top: 15px;
+  }
+  .card_title {
+    color: rgb(78, 78, 78);
+    font-size: 25px;
+  }
+
+  .see_blog{
+    padding: 9px 40px;
+  }
+
+  .card_btn{
+    border: none;
+    background-color: transparent;
+  }
+
+  .bgyellow{
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-counter.jpg);
+    background-size: cover;
+    height: 214px;
+}
+
+.ymix{
+    padding-left: 300px;
+    padding-top: 70px;
+    
+}
+
+.img3lu{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.finish{
+    margin-left: 25%;
+}
+
+.end_btn{
+    padding: 10px 45px;
+    margin-left: 63%;
+}
+
+
+.footer a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #f8f9fa;
+}
+
