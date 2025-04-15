@@ -294,6 +294,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function createUserCard() {
     productsData().then((products) => {
+      console.log(products)
       products.forEach((product) => {
         let card = document.createElement("div");
         card.classList.add("card");

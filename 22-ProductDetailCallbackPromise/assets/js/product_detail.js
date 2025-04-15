@@ -266,7 +266,7 @@ let productContainer = document.querySelector(".product-container");
 productData(id)
 .then((findProduct)=>{
 
-    
+    console.log(findProduct)
 
     productContainer.innerHTML = `
   <div class="product-image">
@@ -362,6 +362,7 @@ productData(id)
 
 }).catch((err)=>{
     productContainer.innerHTML = `<p style="color:red">${err}</p>`
+    console.log(err);
 })
 
 
