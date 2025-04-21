@@ -1,0 +1,15 @@
+.list{
+    display: flex;
+    gap: 30px;
+    font-family: "Montserrat";
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625em;
+}
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #ffc800;
+}

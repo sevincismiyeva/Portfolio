@@ -1,0 +1,23 @@
+.serviceicon {
+    background-color: #ffcc00;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 25px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: white;
+}
+
+.titlee {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.desc {
+    color: #6c757d;
+    line-height: 1.6;
+}

@@ -1,0 +1,41 @@
+.card{
+    width: 30%;
+    color: black;
+    text-align: center;
+    background-color: white;
+    height: 370px;
+    line-height: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.cardimg{
+    background-color: white;
+    position: relative;
+}
+.cardimg:hover{
+    background-color: #ffc800;
+}
+.cardimg:hover .overlay {
+    opacity: 1;
+  }
+.cardimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+.card h2{
+    padding-top: 15px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 200, 0, 0.6); 
+    opacity: 0;
+  }

@@ -1,0 +1,38 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 13rem;
+    padding-bottom: 11.5rem;
+    font-family: "Montserrat";
+}
+
+.titleone {
+    font-family: "Roboto Slab", serif;
+    font-size: 2.3rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+.titletwo {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+.btn{
+    padding: 20px 40px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    background-color: #FFC800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #c29800;
+}

@@ -1,0 +1,16 @@
+.footicon{
+    display: flex;
+    gap: 20px;
+}
+.footicon span{
+    background-color: #212529;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.footicon span:hover{
+    background-color: #38393a;
+}
