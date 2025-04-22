@@ -1,0 +1,31 @@
+.card{
+    width: 586.4px;
+    height: 145px;
+    columns: #212529;
+    border: 1px solid #a5a8ab;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding: 24px 30px;
+}
+.icon{
+    width: 90px;
+    height: 30px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.descone{
+    color: #212529;
+    font-size: 16px;
+    margin: 0px 0px 4px;
+}
+.desctwo{
+    color: #6c757d;
+    font-size: 14px;
+}

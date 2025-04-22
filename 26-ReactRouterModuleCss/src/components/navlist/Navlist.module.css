@@ -1,0 +1,13 @@
+.list{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff8c;
+}
+.list li{
+    list-style: none;
+}
+.list li:hover{
+    color: white;
+}

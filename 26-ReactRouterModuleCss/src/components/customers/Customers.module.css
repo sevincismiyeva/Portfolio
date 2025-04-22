@@ -1,0 +1,27 @@
+.customers{
+    padding: 60px 20px;
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.desc {
+    text-align: center;
+    color: #212529;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.customer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
