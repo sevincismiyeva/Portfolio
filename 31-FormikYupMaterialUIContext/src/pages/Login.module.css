@@ -1,0 +1,48 @@
+.formContainer {
+    max-width: 400px;
+    margin: 70px auto 0;
+    padding: 32px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    background-color: #fafafa;
+}
+
+.formHeading {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.formField {
+    margin-bottom: 20px;
+}
+
+.formButton {
+    margin-top: 20px;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: none;
+    border-radius: 8px;
+    background-color: #00796b;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+    background-color: #004d40;
+}
+
+.formInput {
+    border-radius: 8px;
+}
+
+.formPassword {
+    margin-top: 12px;
+}
+
+.helperText {
+    color: #d32f2f;
+}
