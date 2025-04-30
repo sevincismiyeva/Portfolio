@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "cd93",
+      "name": "Sevinc",
+      "surname": "Sevinc",
+      "username": "Sevinc1",
+      "email": "sevinc@gmail.com",
+      "password": "Sevinc123@",
+      "confirmPassword": "Sevinc123@",
+      "isLogined": false
+    }
+  ]
+}

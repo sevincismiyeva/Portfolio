@@ -1,0 +1,7 @@
+.list {
+    display: flex;
+    gap: 30px;
+}
+.listitem{
+    font-size: 17px;
+}
