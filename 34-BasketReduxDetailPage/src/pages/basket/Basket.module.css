@@ -1,0 +1,39 @@
+.count_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.minus_btn,
+.plus_btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.minus_btn:hover,
+.plus_btn:hover {
+    background-color: #0056b3;
+}
+
+.count {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.minus_btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+  }
